@@ -1,13 +1,13 @@
 @import "tailwindcss";
 
 @font-face {
-  font-family: 'quicksand';
-  src: url('assets/fonts/Quicksand-VariableFont_wght.ttf') format('truetype');
+  font-family: 'Montserrat';
+  src: url('assets/fonts/Montserrat-VariableFont_wght.ttf') format('truetype');
   font-display: swap;
 }
 
 @theme {
- --font-family-primary: "quicksand", ui-sans-serif, system-ui, sans-serif;
+ --font-family-primary: "Montserrat", ui-sans-serif, system-ui, sans-serif;
  --animate-fadeinup: fadeInUp 0.8s ease-out forwards;
  --animate-fadeinupone: fadeInUp 0.8s ease-out forwards 1s;
  --animate-fadeinuponefive: fadeInUp 0.8s ease-out forwards 1.5s;

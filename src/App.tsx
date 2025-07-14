@@ -10,14 +10,14 @@ const App: FC = () => {
   return (
 
 
-    <div className="w-screen h-screen relative overflow-hidden bg-stone-950 text-white font-nunito">
+    <div className="w-screen h-screen relative overflow-hidden bg-stone-950 text-white">
 
       <header className="fixed top-4 left-0 right-0 text-center text-xs text-white/50 z-10">
         © {new Date().getFullYear()} Danilo Moura
       </header>
 
       <div className="fixed inset-0 z-10 flex flex-col items-center justify-center text-center px-4">
-        <h1 className="animate-fadeinup text-5xl opacity-90 sm:text-6xl md:text-7xl font-bold  ">
+        <h1 className="animate-fadeinup text-5xl opacity-90 sm:text-6xl md:text-7xl font-family-primary ">
           Danilo Moura
         </h1>
 
@@ -54,7 +54,7 @@ const App: FC = () => {
 
       <Aurora
         colorStops={["#f0f0f0", "#f0f0f0", "#f0f0f0"]}
-        blend={1.5}
+        blend={2}
         amplitude={0.2}
         speed={2}
       />

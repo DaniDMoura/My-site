@@ -4,6 +4,7 @@ import {
   GithubLogoIcon,
   InstagramLogoIcon,
   LinkedinLogoIcon,
+  MailboxIcon
 } from "@phosphor-icons/react";
 
 const App: FC = () => {
@@ -17,7 +18,7 @@ const App: FC = () => {
         <img
           src="/picture.jpg"
           alt="Picture"
-          className="w-30 h-30 rounded-full m-5"
+          className="w-30 h-30 rounded-full m-5 "
         />
         <div>
           <h1 className="text-3xl opacity-90 sm:text-4xl md:text-5xl font-family-primary font-extralight">
@@ -55,6 +56,15 @@ const App: FC = () => {
           >
             <GithubLogoIcon size={15} />
             GitHub
+          </a>
+                    <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="mailto:mouradanilo061@gmail.com"
+            className="hover:bg-white hover:text-black duration-300 font-family-primary cursor-pointer flex items-center justify-center-safe gap-2 w-60 h-12 text-[11px] border rounded-full shadow-2xl"
+          >
+            <MailboxIcon size={15} />
+            Mail
           </a>
         </div>
       </div>

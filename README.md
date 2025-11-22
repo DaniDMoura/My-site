@@ -1,6 +1,6 @@
 # Danilo-Moura Portfolio
 
-Modern and minimal personal portfolio.
+Modern and minimal personal webapp.
 Built with React, Tailwind CSS, and Vite.
 
 ## Setup

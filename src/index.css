@@ -8,30 +8,11 @@
 
 @theme {
  --font-family-primary: "Montserrat", ui-sans-serif, system-ui, sans-serif;
- --animate-fadeinup: fadeInUp 0.8s ease-out forwards;
- --animate-fadeinupone: fadeInUp 0.8s ease-out forwards 1s;
- --animate-fadeinuponefive: fadeInUp 0.8s ease-out forwards 1.5s;
- --animate-fadeinuptwo: fadeInUp 0.8s ease-out forwards 2s;
 }
 
 :root{
   background-color: #000000;
 }
 
-.particles-container {
-  position: relative;
-  width: 100%;
-  height: 100%;
-}
 
-@keyframes fadeInUp {
-  0% {
-    opacity: 0;
-    transform: translateY(-20px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
 
